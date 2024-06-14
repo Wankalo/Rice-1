@@ -12,7 +12,7 @@ set $right l
 set $term kitty
 set $browser firefox
 set $explorer nemo
-set $menu "sh /home/rafel/.config/rofi/launchers/launcher.sh"
+set $menu "sh $HOME/.config/rofi/launchers/launcher.sh"
 
 ### Autostart
 #Authentication agent
@@ -39,17 +39,7 @@ exec_always {
 output * bg ~/Pictures/bg.jpg fill
 
 ### Idle configuration
-#
-# Example configuration:
-#
-# exec swayidle -w \
-#          timeout 300 'swaylock -f -c 000000' \
-#          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-#          before-sleep 'swaylock -f -c 000000'
-#
-# This will lock your screen after 300 seconds of inactivity, then turn off
-# your displays after another 300 seconds, and turn your screens back on when
-# resumed. It will also lock your screen before your computer goes to sleep.
+# gotta do this later
 
 ### Input
 
@@ -57,6 +47,7 @@ output * bg ~/Pictures/bg.jpg fill
 input type:keyboard {
     xkb_layout es,us 
     #de
+    # Swap caps lock and esc
     xkb_options caps:swapescape
 }
 
@@ -104,7 +95,7 @@ input "type:touchpad" {
 
     bindsym XF86Keyboard input type:keyboard xkb_switch_layout next
 
-    bindsym XF86PowerOff exec sh ~/.config/rofi/powermenu/powermenu.sh
+    bindsym XF86PowerOff exec sh $HOME/.config/rofi/powermenu/powermenu.sh
 
     bindsym Print exec grim -g "$(slurp -d)" - | wl-copy
     bindsym $mod+Print exec grim -g "$(slurp -d)" $HOME/Pictures/Capturas/$(date +"%d-%m-%Y-%H%S").png
