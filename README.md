@@ -7,6 +7,7 @@
 - File Manager: Nemo/lf
 - Text editor: Neovim
 - Fetch: Fastfetch
+- Shell: zsh 
 
 ## Screenshots 
 Still have work to do
