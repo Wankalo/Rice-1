@@ -9,18 +9,16 @@
 - Fetch: Fastfetch
 - Shell: zsh 
 
+You can freely copy any of these configs. I have copied many of these myself...
+
 ## Screenshots 
 Still have work to do
-
-## Stuff to do when installing:
-- Install the gtk theme and change it in the sway config if it's not the set one.
-- Change the wallpaper in the sway config
 
 ## Things to add
 - [ ] Custom fastfetch
 - [ ] Get rid of spotify
 - [ ] Custom btop
-- [ ] Remove oh-my-zsh
+- [X] Remove oh-my-zsh
 - [ ] Swaylock fancy
 - [ ] More rofi applets
 - [ ] Swaync
