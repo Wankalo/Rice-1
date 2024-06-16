@@ -8,10 +8,12 @@ alias -g ...="../.."
 alias -g ....="../../.."
 alias -g .....="../../../.."
 
-
 alias cat="bat"
-alias ls="eza"
-alias lsa="eza -a"
+alias ls="eza --color=always"
+alias lsa="eza -a --color=always"
+alias ll="eza --color=always --long --no-filesize --icons=always --no-time --no-user --no-permissions"
+alias fll="eza --color=always --long -a --git"
+alias cl="clear"
 
 alias g="git"
 alias ga="git add"

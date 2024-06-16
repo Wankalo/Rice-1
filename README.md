@@ -22,5 +22,5 @@ Still have work to do
 - [ ] Swaylock fancy
 - [ ] More rofi applets
 - [ ] Swaync
-- [ ] A wallpapebr daemon
+- [ ] A wallpaper daemon
 - [ ] A install script (some day)
