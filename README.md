@@ -8,19 +8,18 @@
 - Text editor: Neovim
 - Fetch: Fastfetch
 - Shell: zsh 
+- Prompt: Powerlevl10k
+- Notifications: dunst
+
 
 You can freely copy any of these configs. I have copied many of these myself...
 
-## Screenshots 
-Still have work to do
+Rofi stuff modified from here: https://github.com/adi1090x/rofi
 
-## Things to add
-- [ ] Custom fastfetch
-- [ ] Get rid of spotify
-- [ ] Custom btop
-- [X] Remove oh-my-zsh
-- [ ] Swaylock fancy
-- [ ] More rofi applets
-- [ ] Swaync
-- [ ] A wallpaper daemon
-- [ ] A install script (some day)
+## Screenshots 
+![](Screenshots/18-06-2024-1414.png)
+![](Screenshots/18-06-2024-1446.png)
+![](Screenshots/18-06-2024-1506.png)
+![](Screenshots/18-06-2024-1424.png)
+![](Screenshots/20240618_15h18m54s_grim.png)
+![](Screenshots/07-06-2024-2213.png)
