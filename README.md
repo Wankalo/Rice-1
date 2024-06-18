@@ -10,6 +10,8 @@
 - Shell: zsh 
 - Prompt: Powerlevl10k
 - Notifications: dunst
+- Pdf reader: Zathura
+- Lock: [Big-B/swaylock-effects](https://github.com/Big-B/swaylock-fancy)
 
 
 You can freely copy any of these configs. I have copied many of these myself...
