@@ -10,6 +10,8 @@
 - Shell: zsh 
 - Prompt: Powerlevl10k
 - Notifications: dunst
+- Music: Spicetify
+- Visualizer: Cava
 - Pdf reader: Zathura
 - Lock: [Big-B/swaylock-effects](https://github.com/Big-B/swaylock-fancy)
 
