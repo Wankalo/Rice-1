@@ -13,7 +13,7 @@
 - Music: Spicetify
 - Visualizer: Cava
 - Pdf reader: Zathura
-- Lock: [Big-B/swaylock-effects](https://github.com/Big-B/swaylock-fancy)
+- Lock: [Big-B/swaylock-effects](https://github.com/Big-B/swaylock-effects)
 
 
 You can freely copy any of these configs. I have copied many of these myself...
