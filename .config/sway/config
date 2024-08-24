@@ -45,7 +45,7 @@ input type:keyboard {
     xkb_layout es,us 
     #de
     # Swap caps lock and esc
-    xkb_options caps:swapescape
+    xkb_options caps:escape,shift:both_capslock
 }
 
 input "type:touchpad" {
