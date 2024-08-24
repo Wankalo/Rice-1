@@ -9,8 +9,8 @@
     "modules-left": [
         "custom/launcher",
         "sway/workspaces",
+        "group/group-tray",
         "mpris",
-        "tray",
         "sway/mode"
     ],
     "modules-center": [
@@ -39,6 +39,22 @@
     "sway/mode": {
         "format": "R"
     },
+    "group/group-tray": {
+    	"orientation": "inherit",
+	    "drawer": {
+		    "transition-duration": 500,
+	        "children-class": "not-power",
+	    },
+	    "modules": [
+		    "custom/open",
+		    "tray"
+	    ]
+    },
+    "custom/open": {
+        "format": "  ",
+        "tooltip": false
+    },
+
     "tray": {
         "spacing": 10
     },
