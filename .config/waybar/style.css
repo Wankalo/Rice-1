@@ -84,6 +84,7 @@ window#waybar {
 
 #mpris{
   color: #1DB954;
+  margin-left: 10px;
   padding-left: 12px;
   padding-right: 12px;
   font-size: 13px;
