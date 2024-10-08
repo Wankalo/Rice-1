@@ -16,6 +16,7 @@
 - Lock: [Big-B/swaylock-effects](https://github.com/Big-B/swaylock-effects)
 - Browser: Firefox with [Pengufox](https://github.com/p3nguin-kun/pengufox)
 
+Nerd Font needed for icons to display properly, I use Meslo Nerd Font.
 
 You can freely copy any of these configs. I have copied many of these myself...
 
